@@ -1,8 +1,10 @@
 class Fetcher {
     get(): any {
+        let value: any;
+        return value;
     }
     post(data: any) {
-
+        return data
     }
 }
 const fetcher = new Fetcher();
